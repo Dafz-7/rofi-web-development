@@ -1,21 +1,49 @@
-/* * {
-    background-image: url("assets/background.jpeg");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: 100%;
-} */
-
-h1 {
-    border-left-style: solid;
-    border-left-color: cyan;
-    border-left-width: 0.5rem;
-    padding-left: 0.65rem;
+.website-body {
+    margin: 0;
+    font-size: 25px;
+    background-color: #2f183f;
+    color: #f5f3f7;
 }
 
-h2 {
-    border-style: solid;
-    border-width: 0.25rem;
-    border-color: purple;
-    border-radius: 0.64rem;
-    
-}
+    .navbar {
+        position: sticky;
+        top: 0;
+        background-color: purple;
+        padding: 10px;
+        border-style: solid;
+        border-color: rgb(109, 134, 218);
+    }
+
+    .navbar a {
+        color: pink;
+        text-decoration: none;
+        padding-left: 10px;
+        border-right-style: solid;
+        padding-right: 20px;
+    }
+
+    .header-container {}
+
+    .main-container {}
+
+        .hero-section {
+            scroll-margin-top: 80px;
+        }
+
+        .about-section {
+            scroll-margin-top: 80px;
+        }
+
+        .skills-section {
+            scroll-margin-top: 80px;
+        }
+
+        .projects-section {
+            scroll-margin-top: 80px;
+        }
+
+        .contact-me-section {
+            scroll-margin-top: 80px;
+        }
+
+    .footer-container {}
