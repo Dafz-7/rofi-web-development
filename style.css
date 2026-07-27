@@ -1,34 +1,57 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 .website-body {
     margin: 0;
+
     font-size: 25px;
+
     background-color: #2f183f;
     color: #f5f3f7;
 }
 
     .navbar {
         position: sticky;
-        top: 0;
+        top: 10px;
+        margin-right: 18%;
+        margin-left: 18%;
+
         background-color: purple;
-        padding: 10px;
         border-style: solid;
         border-color: rgb(109, 134, 218);
+        border-radius: 15px;
+        border-width: 4px;
+
+        display: flex;
+
+        gap: 100px;
+
+        justify-content: center;
+
+        z-index: 999;
     }
 
     .navbar a {
         color: pink;
+
         text-decoration: none;
-        padding-left: 10px;
-        border-right-style: solid;
-        padding-right: 20px;
+
+        padding: 10px;
     }
 
     .header-container {}
 
     .main-container {}
 
-        .hero-section {
-            scroll-margin-top: 80px;
-        }
+    .hero-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        border-style: solid;
+        padding: 50px;
+    }
 
         .about-section {
             scroll-margin-top: 80px;
