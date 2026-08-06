@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quest Log App</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="app-container">
+            <h1>Quest Log</h1>
+
+            <!-- quest form -->
+            <form id="questForm">
+                <input type="text" id="questInput" placeholder="Enter new quest name..." required>
+                <button type="submit" id="addBtn">Add Quest</button>
+            </form>
+
+            <!-- stats and filters -->
+            <div class="controls">
+                <span id="questStats">0 / 0 Quests Completed</span>
+                <div class="filters">
+                    <button id="filterAll" class="filter-btn active" data-filter="all">All</button>
+                    <button id="filterActive" class="filter-btn" data-filter="active">Active</button>
+                    <button id="filterCompleted" class="filter-btn" data-filter="completed">Completed</button>
+                </div>
+            </div>
+
+            <!-- active quest lists -->
+            <ul id="questList"></ul>
+
+            <!-- quest histories -->
+            <hr class="divider">
+            
+            <div class="history-header">
+                <h2>Deleted Quest History</h2>
+                <button id="clearHistoryBtn" class="clear-btn">Clear History</button>
+            </div>
+            <ul id="historyList"></ul>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+
+</html>
+

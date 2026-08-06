@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <!-- Important  -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rofi's Portfolio Website</title>
+        
+        <!-- Google fonts (font name is Inter) -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&
+        display=swap" rel="stylesheet">
+
+        <!-- link to css file -->
+         <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body class="website-body">
+
+        <nav class="navbar">
+            <a href="#hero-section">Home</a>
+            <a href="#about-section">About me</a>
+            <a href="#skills-section">Skills</a>
+            <a href="#projects-section">Projects</a>
+            <a href="#contact-me-section">Contact me</a>
+        </nav>
+
+        <main class="main-container">
+
+            <section id="hero-section" class="hero-section">
+                <h1>Hi, I'm <span class="highlight">Rofi</span>.</h1>
+                <p class="hero-subtitle">
+                    Computer Science Student | Future Full-Stack Developer
+                </p>
+                <a href="#projects-section" class="btn-primary"> View My Work</a>
+            </section>
+
+            <section id="about-section" class="about-section content-card">
+                <h2>About Me</h2>
+                <p>A passionate Computer Science student at <strong>Binus University International</strong> focused on building modern web applications from frontend to backend.</p>
+            </section>
+
+            <section id="skills-section" class="skills-section content-card">
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <span class="skill-badge">HTML5</span>
+                    <span class="skill-badge">CSS3</span>
+                    <span class="skill-badge">JavaScript</span>
+                    <span class="skill-badge">TypeScript</span>
+                    <span class="skill-badge">React</span>
+                    <span class="skill-badge">Next.js</span>
+                    <span class="skill-badge">Spring Boot</span>
+                    <span class="skill-badge">PostgreSQL</span>
+                    <span class="skill-badge">MongoDB</span>
+                </div>
+            </section>
+
+            <section id="projects-section" class="projects-section content-card">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>Personal Portfolio</h3>
+                        <p>My personal portfolio built with semantic HTML5 and modern CSS features like Flexbox, Grid, and fluid typography.</p>
+
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card placeholder-card">
+                        <h3>Upcoming Project</h3>
+                        <p>Currently building a full-stack web application. Stay tuned!</p>
+                        <div class="project-tags">
+                            <span>Spring Boot</span>
+                            <span>React</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact-me-section" class="contact-me-section content-card">
+                <h2>Contact Me</h2>
+                <p>Let's connect! You can find me on these platforms:</p>
+                <div class="contact-links">
+                    <a href="https://github.com/Dafz-7" target="_blank" rel="noopener noreferrer" class="social-btn">GitHub</a>
+                    <a href="https://www.linkedin.com/in/muhammad-dafi-arib-asyrofi-4039212a7/" target="_blank" rel="noopener noreferrer" class="social-btn">LinkedIn</a>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer-container">
+            <p>&copy; 2026 Rofi. Built with passion & clean CSS.</p>
+        </footer>
+
+    </body>
+
+</html>
